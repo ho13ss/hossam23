@@ -1,0 +1,47 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(226, 215, 211, 0.911);
+}
+
+.D {
+    color: rgb(24, 54, 109);
+    background-color: rgba(0, 0, 255, 0.103);
+    border: rgba(33, 161, 22, 0.61);
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.I {
+    color: brown;
+    background-color: rgba(16, 16, 17, 0.623);
+    border: black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.N {
+    color: blueviolet;
+    border: black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgba(75, 57, 30, 0.507);
+}
+
+.A {
+    color: darkblue;
+    border: greenyellow;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgba(90, 74, 74, 0.733);
+}
+
+.text-reveal {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.text-reveal.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
